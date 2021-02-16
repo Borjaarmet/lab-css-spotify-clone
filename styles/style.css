@@ -1,217 +1,226 @@
-                                                                                                                                                                                                                                                      /* general*/
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      html {
-                                                                                                                                                                                                                                                          box-sizing: border-box;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      *,
-                                                                                                                                                                                                                                                      *:before,
-                                                                                                                                                                                                                                                      *:after {
-                                                                                                                                                                                                                                                          box-sizing: inherit;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      /* section 1 */
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      #section1 {
-                                                                                                                                                                                                                                                          position: fixed;
-                                                                                                                                                                                                                                                          overflow: auto;
-                                                                                                                                                                                                                                                          background-color: white;
-                                                                                                                                                                                                                                                          width: 100%;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .spotify-logo-img {
-                                                                                                                                                                                                                                                          height: 80px;
-                                                                                                                                                                                                                                                          float: left;
-                                                                                                                                                                                                                                                          box-sizing: border-box;
-                                                                                                                                                                                                                                                          padding: 10px 30px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .nav-bar {
-                                                                                                                                                                                                                                                          float: right;
-                                                                                                                                                                                                                                                          box-sizing: border-box;
-                                                                                                                                                                                                                                                          font-size: 22px;
-                                                                                                                                                                                                                                                          padding: 20px;
-                                                                                                                                                                                                                                                          margin-top: 12px
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      a {
-                                                                                                                                                                                                                                                          margin-right: 20px;
-                                                                                                                                                                                                                                                          color: #1A1A1A;
-                                                                                                                                                                                                                                                          text-decoration: none;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      /* section 2 */
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      #section2 {
-                                                                                                                                                                                                                                                          position: relative
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .landing-img {
-                                                                                                                                                                                                                                                          background-image: url("/images/landing.jpg");
-                                                                                                                                                                                                                                                          position: relative;
-                                                                                                                                                                                                                                                          justify-content: center;
-                                                                                                                                                                                                                                                          background-repeat: no-repeat;
-                                                                                                                                                                                                                                                          background-size: cover;
-                                                                                                                                                                                                                                                          height: 800px;
-                                                                                                                                                                                                                                                          width: 100%;
-                                                                                                                                                                                                                                                          margin-top: 80px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .title {
-                                                                                                                                                                                                                                                          color: white;
-                                                                                                                                                                                                                                                          position: absolute;
-                                                                                                                                                                                                                                                          top: 450px;
-                                                                                                                                                                                                                                                          left: 350px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      h1 {
-                                                                                                                                                                                                                                                          font-weight: bold;
-                                                                                                                                                                                                                                                          font-size: 100px;
-                                                                                                                                                                                                                                                          margin-bottom: 20px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .paragraph-h1 {
-                                                                                                                                                                                                                                                          font-size: 28px;
-                                                                                                                                                                                                                                                          width: 700px;
-                                                                                                                                                                                                                                                          text-align: center;
-                                                                                                                                                                                                                                                          margin-left: 60px;
-                                                                                                                                                                                                                                                          letter-spacing: 0.2px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      /* section 3 */
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      #section3 {
-                                                                                                                                                                                                                                                          height: 500px;
-                                                                                                                                                                                                                                                          margin: 40px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      h2 {
-                                                                                                                                                                                                                                                          text-align: center;
-                                                                                                                                                                                                                                                          font-size: 40px;
-                                                                                                                                                                                                                                                          margin-top: 40px;
-                                                                                                                                                                                                                                                          font-weight: bold;
-                                                                                                                                                                                                                                                          text-decoration: teal;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      hr {
-                                                                                                                                                                                                                                                          width: 22%;
-                                                                                                                                                                                                                                                          height: 3px;
-                                                                                                                                                                                                                                                          border: 1px solid teal;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .container-section3 {
-                                                                                                                                                                                                                                                          display: flex;
-                                                                                                                                                                                                                                                          justify-content: space-arround;
-                                                                                                                                                                                                                                                          align-items: strech;
-                                                                                                                                                                                                                                                          margin-top: 110px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .box1 {
-                                                                                                                                                                                                                                                          width: 33%;
-                                                                                                                                                                                                                                                          text-align: center;
-                                                                                                                                                                                                                                                          padding: 10px 80px;
-                                                                                                                                                                                                                                                          margin: 0 0px
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .music-icon {
-                                                                                                                                                                                                                                                          height: 100px;
-                                                                                                                                                                                                                                                          width: 100px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .box2 {
-                                                                                                                                                                                                                                                          width: 33%;
-                                                                                                                                                                                                                                                          text-align: center;
-                                                                                                                                                                                                                                                          padding: 10px 80px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .high-quality-icon {
-                                                                                                                                                                                                                                                          height: 100px;
-                                                                                                                                                                                                                                                          width: 100px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .box3 {
-                                                                                                                                                                                                                                                          width: 33%;
-                                                                                                                                                                                                                                                          text-align: center;
-                                                                                                                                                                                                                                                          padding: 10px 80px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .devices-icon {
-                                                                                                                                                                                                                                                          height: 100px;
-                                                                                                                                                                                                                                                          width: 100px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .h3-section3 {
-                                                                                                                                                                                                                                                          font-size: 30px;
-                                                                                                                                                                                                                                                          font-weight: bold;
-                                                                                                                                                                                                                                                          color: teal;
-                                                                                                                                                                                                                                                          margin: 30px 0px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .paragraph-section3 {
-                                                                                                                                                                                                                                                          font-size: 25px;
-                                                                                                                                                                                                                                                          padding: 10px 40px
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      /* section 4 */
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      #section4 {
-                                                                                                                                                                                                                                                          background-color: teal;
-                                                                                                                                                                                                                                                          color: white;
-                                                                                                                                                                                                                                                          margin-left: 80px;
-                                                                                                                                                                                                                                                          margin-right: 80px;
-                                                                                                                                                                                                                                                          padding: 20px 80px;
-                                                                                                                                                                                                                                                          display: flex;
-                                                                                                                                                                                                                                                          margin-bottom: 30px;
-                                                                                                                                                                                                                                                          position: relative;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .content-section4 {
-                                                                                                                                                                                                                                                          margin-bottom: 40px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .spotify-app-image {
-                                                                                                                                                                                                                                                          height: 400px;
-                                                                                                                                                                                                                                                          width: 200px;
-                                                                                                                                                                                                                                                          left: 800px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .title-section4 {
-                                                                                                                                                                                                                                                          text-align: left;
-                                                                                                                                                                                                                                                          font-size: 40px;
-                                                                                                                                                                                                                                                          margin-top: 40px;
-                                                                                                                                                                                                                                                          font-weight: bold;
-                                                                                                                                                                                                                                                          text-decoration: underline;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .h3-section4 {
-                                                                                                                                                                                                                                                          color: white;
-                                                                                                                                                                                                                                                          text-align: left;
-                                                                                                                                                                                                                                                          font-size: 30px;
-                                                                                                                                                                                                                                                          font-weight: bold;
-                                                                                                                                                                                                                                                          padding-top: 40px;
-                                                                                                                                                                                                                                                          padding-bottom: 20px
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .spotify-icon-white-image {
-                                                                                                                                                                                                                                                          width: 150px;
-                                                                                                                                                                                                                                                          height: 150px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .paragraph-section4 {
-                                                                                                                                                                                                                                                          font-size: 20px;
-                                                                                                                                                                                                                                                          padding-top: 20px;
-                                                                                                                                                                                                                                                          padding-bottom: 20px;
-                                                                                                                                                                                                                                                          width: 40%
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .spotify-app-image {
-                                                                                                                                                                                                                                                          width: 350px;
-                                                                                                                                                                                                                                                          height: 600px;
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .image-section4 {
-                                                                                                                                                                                                                                                          padding-top: 50px;
-                                                                                                                                                                                                                                                          margin-left: 50px
-                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      .logo-section4 {
-                                                                                                                                                                                                                                                          position: absolute;
-                                                                                                                                                                                                                                                          left: 520px;
-                                                                                                                                                                                                                                                          top: 300px
-                                                                                                                                                                                                                                                      }
+/* general*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* section 1 */
+
+#section1 {
+    position: fixed;
+    overflow: auto;
+    background-color: white;
+    width: 100%;
+    overflow-x: visible;
+}
+
+.spotify-logo-img {
+    height: 80px;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.nav-bar {
+    float: right;
+    box-sizing: border-box;
+    font-size: 22px;
+    padding: 20px;
+    margin-top: 12px
+}
+
+a {
+    margin-right: 20px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+
+/* section 2 */
+
+#section2 {
+    position: relative;
+}
+
+.landing-img {
+    background-image: url("/images/landing.jpg");
+    position: relative;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 270px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.paragraph-h1 {
+    font-size: 28px;
+    width: 700px;
+    text-align: center;
+    margin-left: 60px;
+    letter-spacing: 0.2px;
+}
+
+
+/* section 3 */
+
+#section3 {
+    height: 500px;
+    margin: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-decoration: teal;
+}
+
+hr {
+    width: 22%;
+    height: 3px;
+    border: 1px solid teal;
+}
+
+.container-section3 {
+    display: flex;
+    justify-content: space-arround;
+    align-items: strech;
+    margin-top: 110px;
+}
+
+.box1 {
+    width: 33%;
+    text-align: center;
+    padding: 10px 80px;
+    margin: 0 0px
+}
+
+.music-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.box2 {
+    width: 33%;
+    text-align: center;
+    padding: 10px 80px;
+}
+
+.high-quality-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.box3 {
+    width: 33%;
+    text-align: center;
+    padding: 10px 80px;
+}
+
+.devices-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.h3-section3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: teal;
+    margin: 30px 0px;
+}
+
+.paragraph-section3 {
+    font-size: 25px;
+    padding: 10px 40px
+}
+
+
+/* section 4 */
+
+#section4 {
+    background-color: teal;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px 80px;
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.content-section4 {
+    margin-bottom: 40px;
+}
+
+.spotify-app-image {
+    height: 400px;
+    width: 200px;
+    left: 800px;
+}
+
+.title-section4 {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.h3-section4 {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+.spotify-icon-white-image {
+    width: 150px;
+    height: 150px;
+}
+
+.paragraph-section4 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40%
+}
+
+.spotify-app-image {
+    width: 350px;
+    height: 600px;
+}
+
+.image-section4 {
+    padding-top: 50px;
+    margin-left: 50px
+}
+
+.logo-section4 {
+    position: absolute;
+    left: 520px;
+    top: 300px
+}
